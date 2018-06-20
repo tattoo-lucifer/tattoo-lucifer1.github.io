@@ -1,0 +1,286 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,1.00);
+	color: rgba(255,255,255,1.00);
+	font-family: 'Poiret One', cursive;
+	letter-spacing: 3px;
+}
+.Screen {
+	background-image:url(../Img2/pexels-photo-813961.jpg)	;
+	background-repeat: no-repeat;
+	background-position:  top;
+	background-size:cover;
+	max-width: 100%;
+	height: 93vh;
+	min-height: 660px;
+	margin: 0;
+	padding-bottom: 20;
+	position: relative;
+}
+.wellcome{
+	height: 250px;
+	padding-top: 120px;
+	position: relative;
+	width: 100%;
+}
+.wellcome:before{
+	position: absolute;
+	content: '';
+	width: 60%;
+	height: 100%;
+	top:-50px;
+	left: 0px;
+	transform: skewY(10deg);
+	background:rgba(0,0,0,1.00);
+	border-bottom-right-radius: 50%;
+}
+.wellcome:after{
+	position: absolute;
+	content: '';
+	width: 60%;
+	height: 100%;
+	top:-50px;
+	right: 0px;
+	transform: skewY(-10deg);
+	background:rgba(0,0,0,1.00);
+	border-bottom-left-radius: 50%;
+}
+.wellcome2{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+}
+.Flexbox {
+	font-size: 17px;
+	width: 100%;
+	display:flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	list-style-type: none;
+	flex-wrap: nowrap;
+	background: hsla(0,0%,0%,0.4);
+	
+}
+.box-1 {
+	margin-top: 8px;
+	flex: 1 1 2em;
+	text-align: left;
+	margin-left: 15px;
+	font-size: 40px;
+	padding: 0px;
+}
+.box-2{
+	margin-right: 1%;
+
+}
+.box-3 {
+	
+	margin-right:  1%;
+	min-width: 110px;
+}
+.box-4 {
+	margin-right: 1%;
+	min-width: 60px;
+	white-space:nowrap;
+}
+.box-5{
+	margin-right: 50px;
+}
+.one{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+height: 70%;
+width: 100%;
+position: absolute;
+}
+.Servis {
+	font-size: 90px;
+	letter-spacing: 10px;
+	font-weight: 500;
+	font-family: 'Cormorant Garamond', serif;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+.diamond{
+	width: 200px;
+	height: 220px;
+}
+.tattoo{
+	width: 100%;
+	height: 700px;
+	display: flex;
+	flex-direction: row-reverse;
+}
+.tattoo-photo {
+	height: 100%;
+	width: 50%;
+	background:url(../Img2/pexels-photo-799491.jpeg);
+	background-position: center;
+	background-size: cover;
+}
+.tattoo-servis {
+	width: 50%;
+	height: 700px;
+	font-size: 25px;
+}
+.tattoo-servis2{
+width: 100%;
+height: 100%;
+	
+}
+
+.table{
+	padding: 70px;
+	font-size: 18px;
+	width: 100%;
+	
+	
+}
+.right{
+	text-align: center;
+}
+.right-q{
+	text-align: center;
+	border-top: 2px solid rgba(23,1,1,1.00);
+}
+.left-q {
+	border-top: 2px solid rgba(23,1,1,1.00);
+}
+.tattoo-servis2 h2 {
+	text-align: center;
+	padding-top: 50px;
+
+}
+.tattoo-brov h2 {
+	text-align: center;
+	padding-top: 50px;
+
+}
+.tattoo-glass h2{
+	text-align: center;
+	padding-top: 50px;
+
+}
+.tattoo-gub h2{
+	font-weight: 400;
+	text-align: center;
+	padding-top: 70px;
+
+}
+
+.tattoo2 {
+	width: 100%;
+	height: 700px;
+	display: flex;
+	flex-direction: row;
+}
+.tattoo-photo2 {
+	height: 100%;
+	width: 50%;
+	background: url(../Img2/pexels-photo-219561.jpeg);
+	background-position: top;
+	background-size: cover;
+}
+.tattoo-brov {
+	width: 50%;
+	height: 100%;
+	font-size: 25px;
+}
+
+.tattoo3 {
+	width: 100%;
+	height: 700px;
+	display: flex;
+	flex-direction: row-reverse;
+}
+.tattoo-photo3 {
+	height: 100%;
+	width: 50%;
+	background: url(../Img2/pexels-photo-890006.jpeg);
+	background-position: top;
+	background-size: cover;
+}
+.tattoo-glass {
+	width: 50%;
+	height: 100%;
+	font-size: 25px;
+}
+.tattoo4 {
+	width: 100%;
+	height: 700px;
+	display: flex;
+	flex-direction: row;
+}
+.tattoo-photo4 {
+	height: 100%;
+	width: 50%;	background: url(../Img2/pexels-photo-25529.jpeg);
+	background-position: top;
+	background-size: cover;
+}
+.tattoo-gub {
+	width: 50%;
+	height: 100%;
+	font-size: 25px;
+}
+.footer {
+	height: 400px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.map {
+	width: 100%;
+	height: 550px;
+}
+a.Margin {
+	margin-left: 45px;
+}
+a {
+	text-decoration: none;
+	color: rgba(255,255,255,1.00);
+}
+li {
+	margin: 20px 20px;
+ 	width: 60px;
+ 	height: 30px;
+	padding: 8px;
+	text-align: center;
+}
+td {
+	display: table-cell;
+	padding: 30px 0px;
+	border-bottom: 2px solid rgba(23,1,1,1.00);
+
+}
+
+@media (max-width: 1050px) {
+	body{font-size: 19px;}
+	.Screen{height:93vh;}
+	.one { height: 80%;}
+	.Flexbox   { width: 100%; font-weight: 500;}
+	.tattoo {display: flex;		flex-direction: column;		height: 1300px;}
+	.tattoo-photo {width: 100%; height: 600px;}
+	.tattoo-servis{width: 100%; height: 700px;}
+	.tattoo2{display: flex;		flex-direction: column;		height: 1300px;}
+	.tattoo-photo2{width: 100%; height: 600px;}
+	.tattoo-brov {width: 100%; height: 700px;}
+	.tattoo3 {display: flex;		flex-direction: column;		height: 1300px;}
+	.tattoo-photo3 {width: 100%; height: 600px;}
+	.tattoo-glass {width: 100%; height: 700px;}
+	.tattoo4 {display: flex;		flex-direction: column;		height: 1300px}
+	.tattoo-photo4{ width: 100%; height: 600px}
+	.tattoo-gub{width: 100%; height: 700px;}
+	.map {width: 100%; height: 500px;}
+}

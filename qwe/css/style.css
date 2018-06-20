@@ -1,0 +1,238 @@
+/*
+	Author: Nemets Yury
+	Site: www.sitehere.ru
+	Источник изображений: https://www.iconfinder.com/icons/984102/avatar_casual_male_man_person_user_icon
+*/
+
+/*Таблица сброса Eric Mayer*/
+body {
+    line-height: 1;
+    color: black;
+    background: white;
+	font-family: 'Poiret One', cursive;
+	
+}
+
+/*Стили для демо*/
+/*h2*/.title {
+	background-color: #503d3f;
+	color:#fff;
+	line-height: 60px;
+	font-weight: 400;
+	position: relative;
+	text-align: center;
+	font-size: 28px;
+	margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+	/*h2*/.title {
+		line-height: 30px;
+		font-size: 20px;
+		padding: .5em;
+	}
+}
+
+/*h2*/.title:after {
+	content: "";
+	position: absolute;
+	bottom:-35px;
+	left:0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1px;
+	border:20px solid transparent;
+	border-top-color: #503d3f;
+	z-index: 10;
+}
+
+h2.title + .owl-carousel .owl-dots .owl-dot.active span {background-color: #503d3f;}
+
+h2.title.five {background-color: black;}
+h2.title.five:after {border-top-color: black;}
+
+h2.title span{
+	color:#fff;
+	line-height: 40px;
+	font-weight: 700;
+}
+
+.block-one-example {
+	margin:30px 0;
+	position: relative;
+}
+
+.icon-download a {
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    top:0;
+    right:0;
+    display: block;
+    line-height: 60px;
+}
+
+.fileSizeDemo{
+	color:#fff;
+	opacity: 1;
+	position: absolute;
+	top:-60px;
+	left:0;
+	right:0;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100px;
+	background-color: #39BE8E;
+	text-align: center;
+	padding: 10px 0;
+	display: block;
+	-webkit-transition: all .4s ease;
+	-o-transition: all .4s ease;
+	transition: all .4s ease;
+	border-radius: 4px;
+	font-size: 24px;
+	box-shadow: 0 0px 4px rgba(0,0,0,.4);
+	opacity: 0;
+}
+
+.fileSizeDemo:after {
+	content:"";
+	position: absolute;
+	bottom:-20px;
+	left: 0;
+	right: 0;
+	margin-right: auto;
+	margin-left: auto;
+	width: 1px;
+	border:10px solid transparent;
+	border-top-color: #39BE8E;
+}
+
+.icon-download a:hover .fileSizeDemo{
+	color:#fff;
+	opacity: 1;
+	position: absolute;
+	top:-70px;
+}
+
+/*Основные стили*/
+
+.container {
+	max-width: 960px;
+	width: 90%;
+	margin:0 auto;
+}
+
+.inner-testimonial {
+	text-align: center;
+	background-color: #fff;
+}
+
+.inner-testimonial > img{
+	max-width: 128px;
+	margin:0 auto 15px;
+	opacity: 0;
+	-webkit-transition:all 1.3s linear;
+	transition:all 1.3s linear;
+	border-radius: 50%;
+}
+
+.owl-item.active .inner-testimonial > img{
+	-webkit-transition:all 1.3s linear;
+	transition:all 1.3s linear;
+}
+
+.owl-item.active .inner-testimonial > img.full-opacity {
+	opacity:1;
+	-webkit-transition:all 0.3s linear;
+	transition:all 0.3s linear;
+}
+
+h3.city-name {
+	padding:10px 0;
+	font-size: 20px;
+	font-weight: 900;
+}
+
+/*p*/.text-testimonial {
+	padding:10px 0;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 25px;
+}
+
+.block-items {
+	cursor: default;
+}
+
+/*Изменяем внешний вид элементов управления (точки) */
+.owl-theme .owl-dots .owl-dot span {
+	width: 14px;
+	height: 14px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span{
+	background-color: rgba(0,0,0,1.00);
+	width: 18px;
+	height: 18px;
+}
+
+/*Стрелки*/
+.owl-my-nav {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.owl-my-nav .owl-prev,
+.owl-my-nav .owl-next{
+	position: absolute;
+	width: 60px;
+	top:34%;
+	font-size: 100px;
+	z-index: 20;
+	cursor:pointer;
+	opacity: 0.5;
+	-webkit-transition:opacity .3s ease;
+	transition:opacity .3s ease;
+}
+
+.owl-my-nav .owl-prev:hover,
+.owl-my-nav .owl-next:hover{
+	opacity: 0.8;
+}
+
+.owl-my-nav .owl-prev {
+	left: 50px;
+}
+
+.owl-my-nav .owl-next {
+	right: 50px;
+	text-align: right;
+}
+
+@media only screen and (max-width : 768px) {
+	/*p*/.text-testimonial {
+		font-size: 14px;
+	}
+
+	.owl-my-nav .owl-prev,
+	.owl-my-nav .owl-next{
+		font-size: 50px;
+	}
+
+	.owl-my-nav .owl-prev {
+		left: 10px;
+	}
+
+	.owl-my-nav .owl-next {
+		right: 10px;
+	}
+}
+.inner-testimonial{
+	margin-top: 20px;
+}
