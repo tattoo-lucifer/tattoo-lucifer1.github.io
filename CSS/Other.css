@@ -349,7 +349,7 @@ span {
 	.open  {display: flex;		flex-direction: column-reverse;		height: 100%;}
 	.open2 {width: 100%;  padding-top: 290px;		 height: 310px;}
 	.open3 { width: 100%; height: 600px;}
-	.servis{display: flex;		flex-direction: column-reverse;		height: 100%;}
+	.servis{display: flex;		flex-direction: column-reverse;		height: 1200px;}
 	.servis1{width: 100%; height: 600px}
 	.servis2{width: 100%; height: 600px;}
 	.portfolio{display: flex;		flex-direction: column-reverse;		height: 100%;}
