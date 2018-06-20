@@ -173,18 +173,31 @@ position: absolute;
 	align-items: center;
 	width: 100%;
 	height: 700px;
+	transition: 1s;
 }
 .servis1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100%;
+	flex-basis: 50%;
 	font-size: 33px;
 	width: 50%;
 	text-align: center;
+	transition: 1s;
 }
 .servis2 {
+	flex-basis: 50%;
 	width: 50%;
 	height: 700px;
 	background: url(../IGM/pexels-photo-251287.jpg);
 	background-position: center;
 	background-size: cover;
+	transition: 1s;
+}
+.qwe:hover {
+	flex-basis: 90%;
 }
 .portfolio {
 	display: flex;
@@ -337,7 +350,7 @@ span {
 	.open2 {width: 100%;  padding-top: 290px;		 height: 310px;}
 	.open3 { width: 100%; height: 600px;}
 	.servis{display: flex;		flex-direction: column-reverse;		height: 100%;}
-	.servis1{width: 100%;  padding-top: 200px;		 height: 400px;}
+	.servis1{width: 100%; height: 600px}
 	.servis2{width: 100%; height: 600px;}
 	.portfolio{display: flex;		flex-direction: column-reverse;		height: 100%;}
 	.portfolio1{width: 100%;  padding-top: 200px;		 height: 400px;}
@@ -346,5 +359,6 @@ span {
 	.follow1 {  width: 100%; height: 600px;}
 	.follow2{  width: 100%; height: 650px;}
 	.contact1{ margin-top: 50px;}
-
+	
 }
+
