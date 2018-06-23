@@ -356,6 +356,10 @@ a {
 span {
 	font-size: 30px;
 }
+.edc {
+	font-size: 33px;
+	margin-left: 8px;
+}
 @media (max-width: 1050px) {
 	body{font-size: 19px;}
 	.Screen{height: 93vh; padding-bottom:  20px;}
