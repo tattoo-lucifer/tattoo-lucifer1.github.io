@@ -16,11 +16,15 @@
 	<style type="text/css">#hello>p{display:none;}#hello_preload{display: block;position: fixed;z-index: 99999;top: 0;left: 0;width: 100%;height: 100%;min-width: 1px;background: #000000 url(SVG/tattoo-machine.svg) center center no-repeat;background-size:71px;}</style> <div id="hellop"><div id="hello_preload"></div></div> <script type="text/javascript">var hello = document.getElementById("hello_preload");function fadeOutnojquery(el){el.style.opacity = 1;var interhello = setInterval(function(){el.style.opacity = el.style.opacity - 0.05;if (el.style.opacity <=0.05){ clearInterval(interhello);hello.style.display = "none";}},16);}window.onload = function(){setTimeout(function(){fadeOutnojquery(hello);},1300);};</script>
 <header class="Screen">
 		<div class="Flexbox">
-				<li class="box-1"><a href="index.html">tottoo</a></li>
-				<li class="box-2"><a href="Servis.html">Услуги</a></li>
-				<li class="box-3"><a href="Portfolio.html">Портфолио</a></li>
-				<li class="box-4"><a href="AboutUs.html">О нас</a></li>
-				<li class="box-5"><a href="#follow" id="contact">Контакты</a></li>
+			<div class="menu">
+				<ul> 
+				<li class="wsx box-1"><a href="index.html">tottoo</a></li>
+				<li class="wsx box-2"><a href="Servis.html">Услуги</a></li>
+				<li class="wsx box-3"><a href="Portfolio.html">Портфолио</a></li>
+				<li class="wsx box-4"><a href="AboutUs.html">О нас</a></li>
+				<li class="wsx box-5"><a href="#follow" id="contact">Контакты</a></li>
+				</ul>
+			</div>
 		</div>
 		<div class="one">
 		<div class="tattoo"><img src="SVG/tattoo-machine.svg" width="200px" height="200px" alt="Тату салон - Lucifer.  Город Ставрополь">		</div>
