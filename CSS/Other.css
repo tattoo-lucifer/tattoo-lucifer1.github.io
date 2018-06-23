@@ -151,10 +151,14 @@ min-height: 660px;
 	height: 700px;
 }
 .open2 {
-	font-size: 21px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100%;
+	font-size: 33px;
 	width: 50%;
 	text-align: center;
-	align-self: center;
 }
 .open3 {
 	background-image: url(../IGM/pexels-photo-573294.jpeg);
