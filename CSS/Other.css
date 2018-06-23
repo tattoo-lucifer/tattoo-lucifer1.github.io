@@ -374,7 +374,7 @@ span {
 }
 @media (max-width: 1050px) {
 	body{font-size: 19px;}
-	.Screen{height: 93vh; padding-bottom:  20px;}
+	.Screen{height: 93vh; padding-bottom:  20px; min-height: 300px;}
 	.Flexbox   { width: 100%; font-weight: 500; }
 .main      {display: flex; 	 flex-direction: column; 	height: 1200px;}
 .three     {width: 100%;		order: 1;	 height: 600px;}
