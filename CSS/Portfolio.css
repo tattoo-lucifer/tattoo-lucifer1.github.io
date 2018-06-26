@@ -128,9 +128,9 @@ width: 100%;
 }
 .portfolio-section{
 	display: grid;
-	margin: 30px;
+	margin: 15px;
 	grid-template-columns: 1fr 1fr 1fr ;
-	grid-gap: 20px;
+	grid-gap: 10px;
 	height: 100%;
 }
 .portfolio-photo {
@@ -185,7 +185,7 @@ width: 100%;
 	
 .portfolio-section{
 	display: grid;
-	margin: 30px;
+	margin: 10px;
 	grid-template-columns: 1fr ;
 	grid-gap: 10px;
 	height: 100%;
