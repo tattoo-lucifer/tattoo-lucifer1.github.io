@@ -378,7 +378,7 @@ span {
 	body{font-size: 19px;}
 	.Screen{height: 93vh; padding-bottom:  20px;}
 	.Flexbox   { width: 100%; font-weight: 500; }
-	.one { height: 90%;}
+	.one { height: 100%;}
 .main      {display: flex; 	 flex-direction: column; 	height: 1200px;}
 .three     {width: 100%;		order: 1;	 height: 600px;}
 .four  	   {width: 100%;		order: 2;	 height: 600px;  }
