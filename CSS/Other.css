@@ -376,7 +376,7 @@ span {
 
 @media (max-width: 1050px) {
 	body{font-size: 19px;}
-	.Screen{height: 100vh; padding-bottom:  20px;}
+	.Screen{height: 100vh;}
 	.Flexbox   { width: 100%; font-weight: 500; }
 	.one { height: 100vh;}
 .main      {display: flex; 	 flex-direction: column; 	height: 1200px;}
