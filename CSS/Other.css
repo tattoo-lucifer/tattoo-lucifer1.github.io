@@ -18,10 +18,12 @@ body {
 	background-position:  50% 20%;
 	background-size:cover;
 	max-width: 100%;
-	height: 100vh;
+	height: 93vh;
+	min-height: 660px;
 	margin: 0;
 	padding: 0;
 	display:flex;
+	justify-content:space-between;
 	flex-direction: column;
 
 
@@ -66,10 +68,10 @@ z-index: 2;
 	font-size: 17px;
 	display: flex;
 	justify-content:space-around;
-	background: hsla(0,0%,0%,0.4);
 	list-style:none;
 	list-style-type: none;
 	flex-wrap: nowrap;
+	background: hsla(0,0%,0%,0.4);
 	z-index: 99;
 	padding: 0px;
 	margin: 0px;
@@ -82,6 +84,7 @@ flex-direction: column;
 height: 100%;
 width: 100%;
 position: absolute;
+min-height: 660px;
 	
 }
 .tattoo {
@@ -379,7 +382,7 @@ span {
 	body{font-size: 19px;}
 	.Screen{height: 93vh; padding-bottom:  20px;}
 	.Flexbox   { width: 100%; font-weight: 500; }
-	.one(height:95%;)
+	.one { height: 95%;}
 .main      {display: flex; 	 flex-direction: column; 	height: 1200px;}
 .three     {width: 100%;		order: 1;	 height: 600px;}
 .four  	   {width: 100%;		order: 2;	 height: 600px;  }
