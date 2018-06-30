@@ -377,36 +377,6 @@ span {
 }
 
 
-.qaz {
-	list-style: none;
-    margin: 10px 30px;
-    display: inline-block;
-    font-size: 25px;
-    padding: 17px 20px;
-    color: #fff;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    transition: .5s;
-    letter-spacing: 0px;
-}
-
-.qaz:hover {
-	color:darkgoldenrod;
-	border: 1px solid #757C2E;
-	transition: .5s;
-}
-.media {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
-}
-.r {
-	padding-left: 10px;
-}
-
-
-
 
 @media (max-width: 1050px) {
 	body{font-size: 19px;}
@@ -433,4 +403,3 @@ span {
 	.qwe:hover {flex-basis: 50%;}
 	
 }
-
